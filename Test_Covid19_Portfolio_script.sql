@@ -115,7 +115,7 @@ where de.continent is not null
 Select *, (People_Being_Vaccinated/population)*100
 from #Percent_Population_Vaccinated
 
---VIew creation for later visualization
+--View creation for later visualization
 
 create view Percent_Population_Vaccinated as
 select de.continent, de.location, de.date, de.population, vac.new_vaccinations, sum(convert(int,vac.new_vaccinations)) over
