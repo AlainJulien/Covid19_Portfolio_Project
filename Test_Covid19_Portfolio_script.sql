@@ -1,3 +1,6 @@
+--Covid19_Portfolio_Project cleaning and analysis code--
+--Originally done by Alex Freberg--
+--Open source data: https://ourworldindata.org/covid-deaths--
 select *
 from CovidPortfolioProject..CovidDeaths
 order by 3,4
